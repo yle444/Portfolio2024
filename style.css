@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* Centra le voci */
+    flex-wrap: wrap; /* Permette di andare a capo se necessario */
+}
+
+.nav-item {
+    margin: 0 15px; /* Margine tra gli elementi */
+}
+
+/*stile menu hamburger*/
+.hamburger {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+#intestazione {
+    padding: 27px;
+}
+
+header {
+    background-color: #c79bb2;
+    color: white;
+
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #c79bb2;
+}
+
+.child {
+
+    text-align: center;
+
+}
+
+
+#foto img {
+    width: 27%;
+    border-radius: 258px;
+}
+
+#descrizione h2 {
+
+    margin: 20px;
+}
+
+/*sezione curriculum*/
+#cv {
+    padding: 3% 0 2% 0;
+    text-align: center;
+    background-color: #c79bb2;
+}
+
+#cv h2 {
+    color: white;
+
+}
+
+.card-img-top {
+    height: 247px;
+    object-fit: cover;
+}
+
+
+/* Aggiungi queste regole al tuo CSS esistente */
+
+/* Stile del pulsante di download */
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #4caf50; /* Colore di sfondo verde */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #45a049; /* Colore di sfondo quando il pulsante Ã¨ hover */
+}
+
+.project {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#projects h2 {
+    margin-bottom: 34px;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: #c79bb2;
+}
+
+#bottoneCalendario {
+    text-align: center;
+    background-color: #c79bb2;
+}
+
+
+#prefooter {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#recapiti {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contatti {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contatto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.contatto a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.contatto img {
+    width: 41px;
+    padding: 5px;
+}
+
+.contatto p {
+    margin: 0;
+    padding-left: 10px;
+}
+
+.imageborder {
+    border: 1px solid #000;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#cell a {
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+
+#email a {
+    padding-right: 25px;
+}
+
+#form {
+    display: flex; /*applico la proprietÃ  display flex al contenitore*/
+    flex-direction: column; /*gli elementi al suo interno saranno visualizzata in colonna dall'alto verso il basso*/
+    justify-content: center; /*allineati orizzontalmente al centro */
+    align-items: center; /*allineati verticalmente al centro */
+    padding: 15px 0;
+}
+
+.campi {
+    padding-bottom: 10px;
+    flex-direction: column;
+    /* width: 250px;  */
+    justify-content: center;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    font-size: 16px;
+}
+
+#note {
+    height: 124px;
+    width: 500px;
+    font-size: 16px;
+}
+
+
+#icone {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px;
+}
+
+.singolaIcona {
+    padding: 15px;
+}
+
+.singolaIcona img {
+    width: 40px;
+}
+
+
+#bottone {
+    text-align: center;
+}
+ #iconaWhatsapp{
+         width: 57px;
+ }
+
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+}
+
+
